@@ -1,0 +1,130 @@
+body {
+    font-family: Century Gothic, sans-serif;
+    font-size:  20px;
+    padding: 0%;
+    margin: 0%;
+    background-color:  rgb(31, 32, 32);
+    transition: 1.5s;
+}
+.header {
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+}
+.container {
+    background-color: rgb(104, 212, 2);
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    transition: 1.5s;
+}
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.logo {
+    padding: 15px;
+}
+.add_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.add {
+    padding: 20px;
+}
+.address {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.phone {
+    font-size: 16px;
+}
+#themeButton img{
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.top_menu__green a {
+    text-decoration: none;
+    color: rgb(252, 255, 255);
+}
+.top_menu__green {
+    min-height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top_menu__green a:hover {
+    color: rgb(57, 104, 9);
+}
+main {
+    padding-top: 150px;
+}
+.container_main {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+}
+.title {
+    padding: 20px;
+    padding-left: 200px;
+    width: 700px;
+    font-size: 25px;
+    color: bisque;
+    text-align: center;
+}
+form {
+    color: bisque;
+    padding: 15px;
+    
+}
+label {
+    color: bisque;
+}
+input {
+    margin-left: 20px;
+}
+button {
+    background-color: rgb(238, 228, 94);
+    font-weight: 600;
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+}
+#res {
+    color: ivory;
+    display: none;
+    padding: 15px;
+}
+.container_footer {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(83, 83, 83);
+    min-height: 120px;
+}
+.info {  
+    display: flex;
+    flex-direction: row;
+}
+.number p{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+.links a{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}

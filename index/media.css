@@ -1,0 +1,84 @@
+/*медиа запросы под ipad*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 150%;
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .add_block {
+        display: none;
+    }
+    .container_main {
+        width: 100%;
+    }
+    .invite {
+        background-color: lavenderblush;
+        background-image: none;
+    }
+    .container_footer {
+        width: 100%;
+    }
+    .vvod {
+        width: 100%;
+    }
+    .text1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .quote{
+        width: 100%;
+    }
+}
+
+/*медиа запросы под iphone*/
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+body {
+    font-size: 120%;
+    width: 100%;
+}
+.container {
+    width: 100%;
+}
+.add_block {
+    display: none;
+}
+.container_main {
+    width: 100%;
+}
+.invite {
+    background-color: lavenderblush;
+    background-image: none;
+}
+.photo {
+    display: none;
+}
+.container_footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vvod {
+    width: 100%;
+}
+.text1 {
+    width: 100%;
+}
+.quote{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.quote_Text {
+    width: 100%;
+}
+.quote_Photo {
+    width: 50%;
+
+}
+.number {
+    height: content;
+}
+}

@@ -1,0 +1,179 @@
+body {
+    font-family: Century Gothic, sans-serif;
+    font-size:  20px;
+    padding: 0%;
+    margin: 0%;
+    background-color:  rgb(31, 32, 32);
+    transition: 1.5s;
+}
+.header {
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+}
+.container {
+    background-color: rgb(104, 212, 2);
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    transition: 1.5s;
+}
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo {
+    padding: 15px;
+}
+.add_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.add {
+    padding: 20px;
+}
+.address {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.phone {
+    font-size: 16px;
+}
+#themeButton img{
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.top_menu__green a {
+    text-decoration: none;
+    color: rgb(252, 255, 255);
+}
+.top_menu__green {
+    min-height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top_menu__green a:hover {
+    color: rgb(57, 104, 9);
+}
+main {
+    padding-top: 150px;
+}
+.container_main {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.invite {
+    background-image: url(fonk.jpg);
+    background-size: cover;
+    padding: 30px;
+    transition: 1.5s;
+}
+.vvod {
+    width: 500px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(12, 100, 0);
+    text-align: center;
+}
+.text1 {
+    padding: 28px;
+    width: 450px;
+    text-align: center;
+    color: black;
+}
+.about {
+    background-color: rgb(0, 0, 0);
+    width: content;
+    height: min-content;
+}
+.about_title {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 30px;
+    text-align: left;
+}
+.about_main {
+    font-size: 23px;
+    font-weight: normal;
+    color: white;
+    padding: 27px;
+    display: block;
+    transform: skew(1.5);
+}
+.photo {
+    width: 300px;
+    float: right;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    transition: 1s;
+}
+.photo img:hover {
+    transform: scale(1.5);
+}
+.quote {
+    background-color: black;
+    color: white;
+    display: flex;
+
+
+}
+.quote_Photo {
+    width: 210px;
+    padding: 20px;
+    border-radius: 30%;
+    flex-direction: row;
+}
+.quote_Text {
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    flex-direction: column;
+    border: yellowgreen double;
+    width: 800px;
+}
+.quote_Name {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.quote_Who {
+    color: rgb(180, 170, 180);
+    font-size: 15px;
+}
+.container_footer {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(83, 83, 83);
+    min-height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info {  
+    display: flex;
+    flex-direction: row;
+}
+.number p{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+.links a{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}

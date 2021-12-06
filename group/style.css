@@ -1,0 +1,167 @@
+body {
+    font-family: Century Gothic, sans-serif;
+    font-size:  20px;
+    padding: 0%;
+    margin: 0%;
+    background-color:  rgb(31, 32, 32);
+    transition: 1.5s;
+}
+.header {
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+}
+.container {
+    background-color: rgb(104, 212, 2);
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    transition: 1.5s;
+}
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.logo {
+    padding: 15px;
+}
+.add_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.add {
+    padding: 20px;
+}
+.address {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.phone {
+    font-size: 16px;
+}
+#themeButton img{
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.top_menu__green a {
+    text-decoration: none;
+    color: rgb(252, 255, 255);
+}
+.top_menu__green {
+    min-height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top_menu__green a:hover {
+    color: rgb(57, 104, 9);
+}
+main {
+    padding-top: 150px;
+}
+.container_main {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+}
+.gallery {
+    display:inline-block;
+    padding: 15px;
+    height: 220px;
+    transition: 1s;
+}
+.gallery:hover {
+    transform: skew(1.5);
+    transform: scale(1.7);
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.main_text {
+    display: flex;
+    justify-content: left;
+    width: 700px;
+    color: white;
+    padding: 15px;
+    transform: skew(1.5);
+}
+.main_photo img{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    transition: 1s;
+    transform: skew(1.5);
+}
+.main_photo img:hover {
+    transform: scale(1.7);
+}
+.quote {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 1100px;
+    margin: 0;
+    
+}
+.quote_Photo {
+    width: 210px;
+    padding: 20px;
+    border-radius: 30%;
+    flex-direction: row;
+}
+.quote_Text {
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    flex-direction: column;
+    border: yellowgreen double;
+}
+.quote_Name {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.quote_Who {
+    color: rgb(180, 170, 180);
+    font-size: 15px;
+}
+.container_footer {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(83, 83, 83);
+    min-height: 120px;
+}
+.info {  
+    display: flex;
+    flex-direction: row;
+}
+.number p{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+.links a{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}

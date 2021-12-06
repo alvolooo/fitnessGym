@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong — ВАШ АБОНИМЕНТ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="themeGreen.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="theme.css" id="themeLink">
+    <link rel="stylesheet" href="row.css" id="mainBlock">
+    <link rel="stylesheet" href="block.css" id="changeBlock">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="headline">
+                <a href="../index/index.html" class="logo"> <!-- логотип -->
+                        <img src="logo1.png" alt="" height="50px" width="150px">
+                </a>
+                <div class="add_block"> <!-- блок с адресами -->
+                    <div class="add">
+                        <div class="address">
+                            <span>ул. Б. Казачья, 78 </span>
+                        </div>
+                        <div class="phone">47-58-69</div>
+                    </div>
+                    <div class="add">
+                        <div class="address">
+                            <span>ул. Орженикизе, 126 </span>
+                        </div>
+                        <div class="phone">26-42-55</div>
+                    </div>
+                    <div id="themeButton">
+                        <img src="red.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="top_menu">
+                <nav class="top_menu__green">
+                    <a href="../gym/gym.html">ТРЕНАЖЕРНЫЙ ЗАЛ</a>
+                    <a href="../group/group.html">АЭРОБНЫЙ ЗАЛ</a>
+                    <a href="../abonimenty/abonimenty.html">АБОНИМЕНТЫ</a>
+                    <a href="../contacts/contacts.html">КОНТАКТЫ</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container_main">
+            <div class="title">
+                Ответьте на несколько вопросов и Вы узнаете, какой абонимент подходит именно Вам!
+            </div>
+            <form action="check.php" method="get" id="test">
+                Как часто Вы бываете в командировке?<br>
+                <input type="radio" id="koman1" name="que1" value="Ограниченное колличество посещений клуба">
+                <label for="koman1">Один или несколько раз в месяц</label> <br>
+                <input type="radio" id="koman2" name="que1" value="ПН СР ПТ">
+                <label for="koman2">Несколько раз в год</label><br>
+                <input type="radio" id="koman3" name="que1" value="Любое">
+                <label for="koman3">Никогда</label> <br>
+                <br>
+
+                Какой рабочий график Вы имеете?<br>
+                <input type="radio" id="time1" name="que2" value="Выходной">
+                <label for="time1">Пн - пт, полный день</label> <br>
+                <input type="radio" id="time2" name="que2" value="Стандарт">
+                <label for="time2">Свободный график</label><br>
+                <input type="radio" id="time3" name="que2" value="Студент">
+                <label for="time3">Студент</label> <br>
+                <input type="radio" id="time4" name="que2" value="Будние дни">
+                <label for="time4">Работаю через день</label> <br>
+                <br>
+
+                Как часто Вы планируете посещать занятия в спортзале?<br>
+                <input type="radio" id="chastota1" name="que3" value="Визит">
+                <label for="chastota1">1 - 2 раза в неделю</label> <br>
+                <input type="radio" id="chastota2" name="que3" value="Будние дни">
+                <label for="chastota2">3 - 4 раза в неделю</label><br>
+                <input type="radio" id="chastota3" name="que3" value="Стандарт">
+                <label for="chastota3">6 - 7 раз в неделю</label> <br>
+                <br>
+
+                Есть ли у Вас опыт занятий в тренажерном зале?<br>
+                <input type="radio" id="exp1" name="que4" value="yes">
+                <label for="exp1">Есть</label> <br>
+                <input type="radio" id="exp2" name="que4" value="no">
+                <label for="exp2">Нет</label><br>
+                <br>
+
+                Вы планируете посещать тенировки один или с товарищем/второй половинкой?<br>
+                <input type="radio" id="alone1" name="que5" value="yes1">
+                <label for="alone1">Один</label> <br>
+                <input type="radio" id="alone2" name="que5" value="no1">
+                <label for="alone2">Не один</label><br>
+
+                <button  type="submit" id="calc">Показать результат</button> <br>
+                
+            </form>
+            
+            <div id="res">
+                <p id="res1"> </p>
+                <p id="res2"></p>
+                <p>В подарок за прохождение теста дарим вам</p>  <p id="para"> </p> <p>скидку на абонимет 10%! Ваш промо-код: 7TR59</p> 
+            </div>
+        </div> 
+    </main>
+    <footer>
+        <div class="container_footer">
+            <div class="info">
+                <div class="links">
+                    <a href="https://vk.com/alexandra_voloshina18">
+                        <img src="vk.png" alt="" width="50px" height="50px">
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="https://www.instagram.com/alvolooo/">
+                        <img src="inst.png" alt="" width="50px" height="50px">
+                    </a>
+                </div>
+                <div class="number">
+                    <p>+7 (921) 747-58-69 </p>
+                </div>
+                <div class="number">
+                    <p>+7 (921) 726-42-55</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+    
+</body>
+</html>

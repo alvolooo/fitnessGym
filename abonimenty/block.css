@@ -1,0 +1,29 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.block_opisanie {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+}
+.block_opisanie p{
+    padding-left: 10px;
+}
+.price {
+    padding-top: 20px;
+    font-size: 20px;
+}
+.block_opisanie:hover {
+    transform: scale(1.2);
+}
+.photo {
+    width: 250px;
+    
+    padding: 25px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}

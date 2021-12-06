@@ -1,0 +1,13 @@
+body {
+    background-color: bisque;
+}
+.container {
+    background-color: rgb(247, 133, 40);
+}
+.quote_Text {
+    border: rgb(219, 115, 18) double;
+}
+.block_opisanie {
+    background-color: rgb(219, 115, 18);
+    
+}

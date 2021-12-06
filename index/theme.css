@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+}
+.container {
+    background-color: rgb(247, 133, 40);
+}
+.invite {
+    background-image: url(theme.jpg);
+}
+.vvod {
+    color: rgb(245, 181, 97);
+}
+.text1 {
+    color: cornsilk;
+}
+.quote_Text {
+    border: rgb(219, 115, 18) double;
+}

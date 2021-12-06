@@ -1,0 +1,155 @@
+body {
+    font-family: Century Gothic, sans-serif;
+    font-size:  20px;
+    padding: 0%;
+    margin: 0%;
+    background-color:  rgb(31, 32, 32);
+    transition: 1.5s;
+}
+.header {
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+}
+.container {
+    background-color: rgb(104, 212, 2);
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    transition: 1.5s;
+}
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.logo {
+    padding: 15px;
+}
+.add_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.add {
+    padding: 20px;
+}
+.address {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.phone {
+    font-size: 16px;
+}
+#themeButton img{
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.top_menu__green a {
+    text-decoration: none;
+    color: rgb(252, 255, 255);
+}
+.top_menu__green {
+    min-height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top_menu__green a:hover {
+    color: rgb(57, 104, 9);
+}
+main {
+    padding-top: 150px;
+}
+.container_main {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+}
+.switch {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+}
+input[type="checkbox"] {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    outline: none;
+    background-color: #c6c6c6;
+    border-radius: 10px;
+}
+input:checked[type="checkbox"] {
+    background: #40e551;
+}
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transition: .5s;
+    transform: scale(1.1);
+}
+input:checked[type="checkbox"]:before {
+    left: 20px;
+}
+.photo {
+    width: 250px;
+    padding: 25px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+.ser {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.ser a{
+    text-decoration: none;
+    color: beige;
+}
+.ser a:hover {
+    color: rgb(244, 248, 8);
+}
+.container_footer {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(83, 83, 83);
+    min-height: 120px;
+}
+.info {  
+    display: flex;
+    flex-direction: row;
+}
+.number p{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+.links a{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
